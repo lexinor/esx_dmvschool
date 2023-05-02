@@ -1,4 +1,4 @@
-var tableauQuestion = [
+const tableauQuestion = [
 	{
 		question: "Wenn du 80km/h fährst, und dich einer Wohngegend näherst musst du:",
 		propositionA: "Beschleunigen",

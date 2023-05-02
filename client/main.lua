@@ -29,8 +29,6 @@ function StartTheoryTest()
 	ESX.SetTimeout(200, function()
 		SetNuiFocus(true, true)
 	end)
-
-
 end
 
 function StopTheoryTest(success)
@@ -194,6 +192,14 @@ end)
 RegisterNetEvent('esx_dmvschool:loadLicenses')
 AddEventHandler('esx_dmvschool:loadLicenses', function(licenses)
 	Licenses = licenses
+end)
+
+AddEventHandler('esx:onPlayerDeath', function(data)
+	if CurrentTest == "theory" then
+		StopTheoryTest(false)
+	elseif CurrentTest ~= nil then
+		StopDriveTest(false)
+	end
 end)
 
 -- Create Blips

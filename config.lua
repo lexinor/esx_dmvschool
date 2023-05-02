@@ -2,19 +2,19 @@ Config                 = {}
 Config.DrawDistance    = 10.0
 Config.MaxErrors       = 5
 Config.SpeedMultiplier = 3.6
-Config.Locale = GetConvar('esx:locale', 'en')
+Config.Locale = GetConvar('esx:locale', 'fr')
 
 Config.Prices = {
 	dmv         = 500,
-	drive       = 2500,
-	drive_bike  = 3000,
+	drive       = 3000,
+	drive_bike  = 2000,
 	drive_truck = 5000
 }
 
 Config.VehicleModels = {
-	drive       = 'blista',
-	drive_bike  = 'sanchez',
-	drive_truck = 'mule3'
+	drive       = 'dilettante',
+	drive_bike  = 'faggio',
+	drive_truck = 'mule'
 }
 
 Config.SpeedLimits = {
