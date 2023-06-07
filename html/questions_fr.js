@@ -9,7 +9,7 @@ const tableauQuestion = [
 	},
 
 	{
-		question: "Vous tournez à droite à un feu de tricolore et vous vous voyez un piéton traverser, que faites-vous ?",
+		question: "Vous tournez à droite à un feu tricolore et vous apercevez un piéton traverser, que faites-vous ?",
 		propositionA: "Vous passez avant le piéton",
 		propositionB: "Vous vérifiez qu'il n'y a pas d'autres véhicules autour",
 		propositionC: "Vous attendez que le piéton ait traversé",
